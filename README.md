@@ -1,5 +1,11 @@
 # flask_tutorial_plus
-相比之前的[flask_tutorial](https://github.com/foreverMMMM/flask_tutorial)根据[Flask官方文档](https://flask.palletsprojects.com/en/2.2.x/tutorial/next/)，增加了一些功能。
+
+根据[Flask官方文档](https://flask.palletsprojects.com/en/2.2.x/tutorial/next/)上给出的一些想法，继续开发之前的[flask_tutorial](https://github.com/foreverMMMM/flask_tutorial) 。
+![image](https://user-images.githubusercontent.com/81068011/198559681-b42320f3-0e89-49fa-b6f4-65a369bdc2fb.png)
+
+
+## 运行
+项目的运行方式请见[这里](https://github.com/foreverMMMM/flask_tutorial)
 
 ## 功能：
 - [x] A detail view to show a single post. Click a post’s title to go to its page.
