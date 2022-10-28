@@ -11,3 +11,8 @@
 - [ ] Upload an image to go along with a post.
 - [ ] Format posts using Markdown.
 - [ ] An RSS feed of new posts.
+
+目前只完成了第一个小功能，后续会不定期更新。
+
+## 写在最后
+若代码或者其他问题，欢迎指正和讨论
