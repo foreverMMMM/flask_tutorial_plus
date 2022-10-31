@@ -9,7 +9,7 @@
 
 ## 功能：
 - [x] A detail view to show a single post. Click a post’s title to go to its page.
-- [ ] Like / unlike a post.
+- [x] Like / unlike a post.
 - [ ] Comments.
 - [ ] Tags. Clicking a tag shows all the posts with that tag.
 - [ ] A search box that filters the index page by name.
@@ -19,6 +19,11 @@
 - [ ] An RSS feed of new posts.
 
 目前只完成了第一个小功能，后续会不定期更新。
+
+## 更新说明
+[点击查看详情(v1.0)](https://github.com/foreverMMMM/flask_tutorial_plus/tree/v1.0)
+- 新增了文章详情页（单页面查看）
+- 新增文章点赞功能
 
 ## 写在最后
 若代码或者其他问题，欢迎指正和讨论
