@@ -1,7 +1,10 @@
 {% extends 'base.html' %}
 
 {% block header %}
-    <h1>{% block title %}Read "{{ post['title'] }}"{% endblock %}</h1>
+    <h1>{% block title %}Now reading.....{% endblock %}</h1>
+    <input type="hidden" value="{{ post['id'] }}" id="article-id">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/font-awesome.min.css') }}">
+    <script src="{{ url_for('static',filename='javascript/axios.min.js') }}"></script>
 {% endblock %}
 
 {% block content %}
@@ -10,4 +13,22 @@
     <p>
         {{ post['body'] }}
     </p>
+
+    <div class="footer">
+        <div class="self-like">
+            {% if like_info.isLike %}
+                <i class="fa fa-thumbs-o-up" id="like" data-like="true">
+                    <span>&nbsp;&nbsp;</span>
+                    <span id="like-count">{{ like_info.like_count }}</span>
+                </i>
+            {% else %}
+                <i class="fa fa-thumbs-o-up" id="like" data-like="false">
+                    <span>&nbsp;&nbsp;</span>
+                    <span id="like-count">{{ like_info.like_count }}</span>
+                </i>
+            {% endif %}
+        </div>
+    </div>
+    <script src="{{ url_for('static',filename='javascript/do_like.js') }}"></script>
+
 {% endblock %}
