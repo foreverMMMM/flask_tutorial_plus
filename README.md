@@ -9,7 +9,7 @@
 
 ## 功能：
 - [x] A detail view to show a single post. Click a post’s title to go to its page.
-- [ ] Like / unlike a post.
+- [x] Like / unlike a post.
 - [ ] Comments.
 - [ ] Tags. Clicking a tag shows all the posts with that tag.
 - [ ] A search box that filters the index page by name.
